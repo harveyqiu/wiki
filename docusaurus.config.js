@@ -33,8 +33,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           routeBasePath: '/',
           editUrl:
-            'https://github.com/harveyqiu/wiki',
+            'https://github.com/harveyqiu/wiki/tree/main',
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -66,8 +67,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/',
+                label: 'Wiki',
+                to: '/',
               },
             ],
           },
