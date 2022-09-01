@@ -89,6 +89,15 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-RFTV1983TT',
+        anonymizeIP: true,
+      },
+    ],
+  ]
 };
 
 module.exports = config;
