@@ -1,3 +1,0 @@
-- Chinese Character [一-龥]
-- $0
-- [a-zA-Z]*^13
